@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  font-family: "Black Ops One", system-ui;
+  margin: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tittle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tittle img {
+  width: 200px;
+  height: auto;
+}
+
+.container-clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.container-clock h2 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 8rem;
+}
